@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3F88CD27E884890009CBAD /* TinyHN WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D3F88CC27E884890009CBAD /* TinyHN WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D3F88D227E8848C0009CBAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F88D127E8848C0009CBAD /* Assets.xcassets */; };
+		4D3F88D827E8848C0009CBAD /* TinyHN WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D3F88D727E8848C0009CBAD /* TinyHN WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D3F88DD27E8848C0009CBAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F88DC27E8848C0009CBAD /* ContentView.swift */; };
+		4D3F88DF27E8848C0009CBAD /* TinyHNApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F88DE27E8848C0009CBAD /* TinyHNApp.swift */; };
+		4D3F88E127E8848C0009CBAD /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F88E027E8848C0009CBAD /* ComplicationController.swift */; };
+		4D3F88E327E8848D0009CBAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F88E227E8848D0009CBAD /* Assets.xcassets */; };
+		4D3F88E627E8848D0009CBAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F88E527E8848D0009CBAD /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D3F88CE27E884890009CBAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D3F88C227E884890009CBAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3F88CB27E884890009CBAD;
+			remoteInfo = "TinyHN WatchKit App";
+		};
+		4D3F88D927E8848C0009CBAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D3F88C227E884890009CBAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3F88D627E8848C0009CBAD;
+			remoteInfo = "TinyHN WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D3F88ED27E8848D0009CBAD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4D3F88D827E8848C0009CBAD /* TinyHN WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3F88F127E8848D0009CBAD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4D3F88CD27E884890009CBAD /* TinyHN WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D3F88C827E884890009CBAD /* TinyHN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyHN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3F88CC27E884890009CBAD /* TinyHN WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TinyHN WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3F88D127E8848C0009CBAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D3F88D727E8848C0009CBAD /* TinyHN WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TinyHN WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3F88DC27E8848C0009CBAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D3F88DE27E8848C0009CBAD /* TinyHNApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyHNApp.swift; sourceTree = "<group>"; };
+		4D3F88E027E8848C0009CBAD /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		4D3F88E227E8848D0009CBAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D3F88E527E8848D0009CBAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D3F88E727E8848D0009CBAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D3F88D427E8848C0009CBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D3F88C127E884890009CBAD = {
+			isa = PBXGroup;
+			children = (
+				4D3F88D027E884890009CBAD /* TinyHN WatchKit App */,
+				4D3F88DB27E8848C0009CBAD /* TinyHN WatchKit Extension */,
+				4D3F88C927E884890009CBAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D3F88C927E884890009CBAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D3F88C827E884890009CBAD /* TinyHN.app */,
+				4D3F88CC27E884890009CBAD /* TinyHN WatchKit App.app */,
+				4D3F88D727E8848C0009CBAD /* TinyHN WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D3F88D027E884890009CBAD /* TinyHN WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4D3F88D127E8848C0009CBAD /* Assets.xcassets */,
+			);
+			path = "TinyHN WatchKit App";
+			sourceTree = "<group>";
+		};
+		4D3F88DB27E8848C0009CBAD /* TinyHN WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4D3F88DC27E8848C0009CBAD /* ContentView.swift */,
+				4D3F88DE27E8848C0009CBAD /* TinyHNApp.swift */,
+				4D3F88E027E8848C0009CBAD /* ComplicationController.swift */,
+				4D3F88E227E8848D0009CBAD /* Assets.xcassets */,
+				4D3F88E727E8848D0009CBAD /* Info.plist */,
+				4D3F88E427E8848D0009CBAD /* Preview Content */,
+			);
+			path = "TinyHN WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4D3F88E427E8848D0009CBAD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D3F88E527E8848D0009CBAD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D3F88C727E884890009CBAD /* TinyHN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3F88F227E8848D0009CBAD /* Build configuration list for PBXNativeTarget "TinyHN" */;
+			buildPhases = (
+				4D3F88C627E884890009CBAD /* Resources */,
+				4D3F88F127E8848D0009CBAD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D3F88CF27E884890009CBAD /* PBXTargetDependency */,
+			);
+			name = TinyHN;
+			productName = TinyHN;
+			productReference = 4D3F88C827E884890009CBAD /* TinyHN.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		4D3F88CB27E884890009CBAD /* TinyHN WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3F88EE27E8848D0009CBAD /* Build configuration list for PBXNativeTarget "TinyHN WatchKit App" */;
+			buildPhases = (
+				4D3F88CA27E884890009CBAD /* Resources */,
+				4D3F88ED27E8848D0009CBAD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D3F88DA27E8848C0009CBAD /* PBXTargetDependency */,
+			);
+			name = "TinyHN WatchKit App";
+			productName = "TinyHN WatchKit App";
+			productReference = 4D3F88CC27E884890009CBAD /* TinyHN WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4D3F88D627E8848C0009CBAD /* TinyHN WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3F88EA27E8848D0009CBAD /* Build configuration list for PBXNativeTarget "TinyHN WatchKit Extension" */;
+			buildPhases = (
+				4D3F88D327E8848C0009CBAD /* Sources */,
+				4D3F88D427E8848C0009CBAD /* Frameworks */,
+				4D3F88D527E8848C0009CBAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TinyHN WatchKit Extension";
+			productName = "TinyHN WatchKit Extension";
+			productReference = 4D3F88D727E8848C0009CBAD /* TinyHN WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D3F88C227E884890009CBAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4D3F88C727E884890009CBAD = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					4D3F88CB27E884890009CBAD = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					4D3F88D627E8848C0009CBAD = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 4D3F88C527E884890009CBAD /* Build configuration list for PBXProject "TinyHN" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D3F88C127E884890009CBAD;
+			productRefGroup = 4D3F88C927E884890009CBAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D3F88C727E884890009CBAD /* TinyHN */,
+				4D3F88CB27E884890009CBAD /* TinyHN WatchKit App */,
+				4D3F88D627E8848C0009CBAD /* TinyHN WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D3F88C627E884890009CBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3F88CA27E884890009CBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3F88D227E8848C0009CBAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3F88D527E8848C0009CBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3F88E627E8848D0009CBAD /* Preview Assets.xcassets in Resources */,
+				4D3F88E327E8848D0009CBAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D3F88D327E8848C0009CBAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3F88DD27E8848C0009CBAD /* ContentView.swift in Sources */,
+				4D3F88DF27E8848C0009CBAD /* TinyHNApp.swift in Sources */,
+				4D3F88E127E8848C0009CBAD /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D3F88CF27E884890009CBAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D3F88CB27E884890009CBAD /* TinyHN WatchKit App */;
+			targetProxy = 4D3F88CE27E884890009CBAD /* PBXContainerItemProxy */;
+		};
+		4D3F88DA27E8848C0009CBAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D3F88D627E8848C0009CBAD /* TinyHN WatchKit Extension */;
+			targetProxy = 4D3F88D927E8848C0009CBAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D3F88E827E8848D0009CBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D3F88E927E8848D0009CBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D3F88EB27E8848D0009CBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyHN WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KL674X285K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TinyHN WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TinyHN WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwani.TinyHN.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		4D3F88EC27E8848D0009CBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyHN WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KL674X285K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TinyHN WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TinyHN WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwani.TinyHN.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		4D3F88EF27E8848D0009CBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL674X285K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = TinyHN_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "TinyHN WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwani.TinyHN.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		4D3F88F027E8848D0009CBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL674X285K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = TinyHN_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "TinyHN WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwani.TinyHN.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		4D3F88F327E8848D0009CBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL674X285K;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwani.TinyHN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4D3F88F427E8848D0009CBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL674X285K;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwani.TinyHN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D3F88C527E884890009CBAD /* Build configuration list for PBXProject "TinyHN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3F88E827E8848D0009CBAD /* Debug */,
+				4D3F88E927E8848D0009CBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3F88EA27E8848D0009CBAD /* Build configuration list for PBXNativeTarget "TinyHN WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3F88EB27E8848D0009CBAD /* Debug */,
+				4D3F88EC27E8848D0009CBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3F88EE27E8848D0009CBAD /* Build configuration list for PBXNativeTarget "TinyHN WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3F88EF27E8848D0009CBAD /* Debug */,
+				4D3F88F027E8848D0009CBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3F88F227E8848D0009CBAD /* Build configuration list for PBXNativeTarget "TinyHN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3F88F327E8848D0009CBAD /* Debug */,
+				4D3F88F427E8848D0009CBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D3F88C227E884890009CBAD /* Project object */;
+}
