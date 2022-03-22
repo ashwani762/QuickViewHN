@@ -15,6 +15,10 @@
 		4D3F88E127E8848C0009CBAD /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F88E027E8848C0009CBAD /* ComplicationController.swift */; };
 		4D3F88E327E8848D0009CBAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F88E227E8848D0009CBAD /* Assets.xcassets */; };
 		4D3F88E627E8848D0009CBAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F88E527E8848D0009CBAD /* Preview Assets.xcassets */; };
+		4D3F88F827E885660009CBAD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F88F727E885660009CBAD /* Item.swift */; };
+		4D3F88FB27E88CD50009CBAD /* TopNewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F88FA27E88CD50009CBAD /* TopNewsViewModel.swift */; };
+		4D50C8F127E9955700869834 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50C8F027E9955700869834 /* HomeView.swift */; };
+		4D50C8F427E9A6BC00869834 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50C8F327E9A6BC00869834 /* APIRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +64,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D3F88C827E884890009CBAD /* TinyHN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyHN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3F88C827E884890009CBAD /* QuickViewHN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickViewHN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3F88CC27E884890009CBAD /* TinyHN WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TinyHN WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3F88D127E8848C0009CBAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D3F88D727E8848C0009CBAD /* TinyHN WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TinyHN WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +74,10 @@
 		4D3F88E227E8848D0009CBAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D3F88E527E8848D0009CBAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D3F88E727E8848D0009CBAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3F88F727E885660009CBAD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4D3F88FA27E88CD50009CBAD /* TopNewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNewsViewModel.swift; sourceTree = "<group>"; };
+		4D50C8F027E9955700869834 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4D50C8F327E9A6BC00869834 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,7 @@
 		4D3F88C927E884890009CBAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D3F88C827E884890009CBAD /* TinyHN.app */,
+				4D3F88C827E884890009CBAD /* QuickViewHN.app */,
 				4D3F88CC27E884890009CBAD /* TinyHN WatchKit App.app */,
 				4D3F88D727E8848C0009CBAD /* TinyHN WatchKit Extension.appex */,
 			);
@@ -113,6 +121,10 @@
 		4D3F88DB27E8848C0009CBAD /* TinyHN WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				4D50C8F227E9A6AD00869834 /* ServiceUtil */,
+				4D3F88F927E8888B0009CBAD /* ViewModel */,
+				4D3F88F627E885550009CBAD /* Model */,
+				4D3F88F527E8850D0009CBAD /* View */,
 				4D3F88DC27E8848C0009CBAD /* ContentView.swift */,
 				4D3F88DE27E8848C0009CBAD /* TinyHNApp.swift */,
 				4D3F88E027E8848C0009CBAD /* ComplicationController.swift */,
@@ -129,6 +141,38 @@
 				4D3F88E527E8848D0009CBAD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D3F88F527E8850D0009CBAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D50C8F027E9955700869834 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D3F88F627E885550009CBAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D3F88F727E885660009CBAD /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D3F88F927E8888B0009CBAD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D3F88FA27E88CD50009CBAD /* TopNewsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D50C8F227E9A6AD00869834 /* ServiceUtil */ = {
+			isa = PBXGroup;
+			children = (
+				4D50C8F327E9A6BC00869834 /* APIRequest.swift */,
+			);
+			path = ServiceUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +192,7 @@
 			);
 			name = TinyHN;
 			productName = TinyHN;
-			productReference = 4D3F88C827E884890009CBAD /* TinyHN.app */;
+			productReference = 4D3F88C827E884890009CBAD /* QuickViewHN.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
 		4D3F88CB27E884890009CBAD /* TinyHN WatchKit App */ = {
@@ -258,9 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3F88F827E885660009CBAD /* Item.swift in Sources */,
+				4D50C8F427E9A6BC00869834 /* APIRequest.swift in Sources */,
 				4D3F88DD27E8848C0009CBAD /* ContentView.swift in Sources */,
 				4D3F88DF27E8848C0009CBAD /* TinyHNApp.swift in Sources */,
+				4D50C8F127E9955700869834 /* HomeView.swift in Sources */,
 				4D3F88E127E8848C0009CBAD /* ComplicationController.swift in Sources */,
+				4D3F88FB27E88CD50009CBAD /* TopNewsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +562,7 @@
 				DEVELOPMENT_TEAM = KL674X285K;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashwani.TinyHN;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = QuickViewHN;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -527,7 +575,7 @@
 				DEVELOPMENT_TEAM = KL674X285K;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashwani.TinyHN;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = QuickViewHN;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
